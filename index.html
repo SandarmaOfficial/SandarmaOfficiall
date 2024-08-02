@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <!-- basic -->
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <!-- mobile metas -->
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+   <!-- site metas -->
+   <title>Sandarma</title>
+   <meta name="keywords" content="leather, leather products, leather website, e-commerce, selling, leather shop, leather service, buy leather">
+   <meta name="description" content="An Open Source E-commerce website for selling leather products">
+   <meta name="author" content="Kiran Panjwani">
+   <!-- bootstrap css -->
+
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   <!-- style css -->
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="logincss.css">
+   <link rel="stylesheet" href="css/theme.css">
+   <!-- Responsive-->
+   <link rel="stylesheet" href="css/responsive.css">
+   <!-- favicon -->
+   <link rel="icon" href="images/Logo1.png" type="image/gif" />
+   <!-- Tweaks for older IEs-->
+   <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+
+   <!-- theme.js needs to be in the head -->
+   <script src="./js/theme.js" async></script>
+</head>
+<!-- body -->
+
+<body class="main-layout">
+   <button onclick="topFunction()" id="myBtn" title="Go to top">
+   <a href="#">top</a>
+   </button>
+   <!-- loader  -->
+   <div class="loader_bg">
+      <div class="loader-wrapper">
+         <div class="loader-circle"></div>
+         <div class="loader-circle"></div>
+         <div class="loader-circle"></div>
+         <div class="loader-shadow"></div>
+         <div class="loader-shadow"></div>
+         <div class="loader-shadow"></div>
+      </div>
+   </div>
+   <!-- end loader -->
+   <!-- header -->
+
+
+   <!-- Progress bar  -->
+   <div class="progressBar"></div>
+   
+   <header>
+      <!-- header inner -->
+      <div class="header" id="top-of-page">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+                  <div class="full">
+                     <div class="center-banner">
+                        <div class="logo">
+                           <a href="index.html"><img src="./images/Logo1.png" alt="#" /></a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+                  <nav class="navigation navbar navbar-expand-md navbar-dark ">
+                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04"
+                        aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                     </button>
+                     <div class="collapse navbar-collapse" id="navbarsExample04">
+                        <ul class="navbar-nav mr-auto">
+                           <li class="nav-item active">
+                              <a class="nav-link" href="index.html">Home</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" href="#about">About</a>
+                           </li>
+
+                           <li class="nav-item">
+                              <a class="nav-link" href="#Products">Products</a>
+                              
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" href="#ContactUs">Contact Us</a>
+                           </li>
+                             <!---<li class="nav-item">
+                                 <form class="d_flex" role="search">
+                                    <input class="form-control w-45" type="search" placeholder="Search for products & many more..."
+                                      aria-label="Search">
+                                    <svg width="25" height="20" fill="currentColor"
+                                      class="bi bi-search my-auto searchicon " viewBox="0 0 16 16" class="m-2">
+                                      <path
+                                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                                    </svg>
+                                    <!------->
+                                  
+                                    
+                                 </form>
+                              </li>
+                              
+                               <!-- <form class="d-flex">
+                                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                 <button class="btn btn-outline-success" type="submit">Search</button>
+                               </form> -->
+                           <!-- </li> -->
+
+                        </ul>
+                     </div>
+                  </nav>
+               </div>
+            </div>
+         </div>
+      </div>
+   </header>
+   <!-- end header inner -->
+   <!-- end header -->
+   <!-- banner -->
+   <section class="banner_main">
+      <div id="banner1" class="carousel slide" data-ride="carousel">
+         <ol class="carousel-indicators">
+            <li data-target="#banner1" data-slide-to="0" class="active"></li>
+            <li data-target="#banner1" data-slide-to="1"></li>
+            <li data-target="#banner1" data-slide-to="2"></li>
+            <li data-target="#banner1" data-slide-to="3"></li>
+            <li data-target="#banner1" data-slide-to="4"></li>
+         </ol>
+         <div class="carousel-inner">
+            <div class="carousel-item active">
+               <div class="container">
+                  <div class="carousel-caption">
+                     <div class="row">
+                        <div class="col-md-6">
+                           <div class="text-bg">
+                              <span>Experience Royalty With Our</span>
+                              <h1>Sandarma Official</h1>
+                              <p>Pengharum ruangan yang cocok untuk menciptakan suasana yang nyaman di rumah anda.
+                              </p>
+                              <a href="https://shopee.co.id/sandarma.official">Buy Now </a> <a href="#ContactUs">Contact </a>
+                           </div>
+                        </div>
+                        <div class="col-md-6">
+                           <div class="text_img">
+                              <figure class="banner-img"><img src="./images/Diffuser4.png" alt="#" /></figure>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item">
+               <div class="container">
+                  <div class="carousel-caption">
+                     <div class="row">
+                        <div class="col-md-6">
+                           <div class="text-bg">
+                              <span>Experience Royalty With Our</span>
+                              <h1>Sandarma Official</h1>
+                              <p>Pengharum ruangan yang cocok untuk menciptakan suasana yang nyaman di rumah anda.</p>
+                              <a href="https://shopee.co.id/sandarma.official">Buy Now </a> <a href="#">Contact </a>
+                           </div>
+                        </div>
+                        <div class="col-md-6">
+                           <div class="text_img">
+                              <figure class="banner-img"><img src="./images/Diffuser1.png" alt="leather pieces" /></figure>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item">
+               <div class="container">
+                  <div class="carousel-caption">
+                     <div class="row">
+                        <div class="col-md-6">
+                           <div class="text-bg">
+                              <span>Experience Royalty With Our</span>
+                              <h1>Sandarma Official</h1>
+                              <p>Pengharum ruangan yang cocok untuk menciptakan suasana yang nyaman di rumah anda.</p>
+                              <a href="https://shopee.co.id/sandarma.official">Buy Now </a> <a href="#">Contact </a>
+                           </div>
+                        </div>
+                        <div class="col-md-6">
+                           <div class="text_img">
+                              <figure class="banner-img"><img src="./images/Diffuser2.png" alt="leather pieces" /></figure>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item">
+               <div class="container">
+                  <div class="carousel-caption">
+                     <div class="row">
+                        <div class="col-md-6">
+                           <div class="text-bg">
+                              <span>Experience Royalty With Our</span>
+                              <h1>Sandarma Official</h1>
+                              <p>Pengharum ruangan yang cocok untuk menciptakan suasana yang nyaman di rumah anda.</p>
+                              <a href="https://shopee.co.id/sandarma.official">Buy Now </a> <a href="#">Contact </a>
+                           </div>
+                        </div>
+                        <div class="col-md-6">
+                           <div class="text_img">
+                              <figure class="banner-img"><img src="./images/Diffuser3.png" alt="leather pieces" /></figure>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item">
+               <div class="container">
+                  <div class="carousel-caption">
+                     <div class="row">
+                        <div class="col-md-6">
+                           <div class="text-bg">
+                              <span>Experience Royalty With Our</span>
+                              <h1>Sandarma Official</h1>
+                              <p>Pengharum ruangan yang cocok untuk menciptakan suasana yang nyaman di rumah anda.</p>
+                              <a href="https://shopee.co.id/sandarma.official">Buy Now </a> <a href="#">Contact </a>
+                           </div>
+                        </div>
+                        <div class="col-md-6">
+                           <div class="text_img">
+                              <figure class="banner-img"><img src="./images/Jimoore.png" alt="leather pieces" /></figure>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <a class="carousel-control-prev" href="#banner1" role="button" data-slide="prev">
+            <i class="fa fa-chevron-left" aria-hidden="true"></i>
+         </a>
+         <a class="carousel-control-next" href="#banner1" role="button" data-slide="next">
+            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+         </a>
+      </div>
+   </section>
+   <!-- end banner -->
+
+   <!-- company quality services -->
+   <div class="page-section">
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-4">
+               <div class="card-service wow fadeInUp">
+                  <div class="service_img">
+                     <img src="./images/quality1.png" alt="">
+                  </div>
+                  <div class="body">
+                     <h5 class="text-secondary">Providing Quality Item</h5>
+                     <p>Kualitas pengharum ruangan kami mencerminkan kesederhanaan, kepraktisan, dan keanggunan dalam menciptakan suasana yang menyenangkan. Nilai yang sepadan dengan harga kini menjadi standar. Pelanggan kami mengutamakan kualitas. Memuaskan Anda dengan produk pengharum ruangan berkualitas adalah Keunggulan Utama kami. Kami berkomitmen untuk memenuhi dan meraih kepercayaan anda.</p>
+                     <a href="service.html" class="btn aboutusbtn mt-3">Read More</a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-4">
+               <div class="card-service wow fadeInUp">
+                  <div class="service_img">
+                     <img src="./images/quality2.png" alt="">
+                  </div>
+                  <div class="body">
+                     <h5 class="text-secondary">Customer Update</h5>
+                     <p>Di Sandarma Official, kami siap membantu Anda dalam pengalaman berbelanja pengharum ruangan. Hubungi kami melalui email atau telepon jika Anda memiliki pertanyaan. Jika produk yang Anda inginkan sedang tidak tersedia, kami akan memberi tahu Anda kapan produk tersebut akan tersedia kembali. Jika Anda puas atau tidak puas dengan layanan kami, jangan ragu untuk menghubungi kami melalui rincian di bawah ini.
+
+                     </p>
+                     <a href="service.html" class="btn aboutusbtn mt-3">Read More</a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-4">
+               <div class="card-service wow fadeInUp">
+                  <div class="service_img">
+                     <img src="./images/quality3.png" alt="">
+                  </div>
+                  <div class="body">
+                     <h5 class="text-secondary">Personalized Items</h5>
+                     <p>Kami ahli dalam semua produk pengharum ruangan. Kami akan membantu Anda menemukan aroma yang tepat sesuai kebutuhan Anda. Jika Anda mencari pengharum ruangan yang mahal di pasaran, kami akan berusaha mencari alternatif yang serupa dengan harga yang lebih terjangkau. Kami juga menawarkan layanan pemesanan khusus untuk produk pengharum ruangan berkualitas tinggi.</p>
+                     <a href="service.html" class="btn aboutusbtn mt-3">Read More</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div> <!-- .container -->
+   </div> <!-- .page-section -->
+
+   <!-- products -->
+   <div class="page-section bg-light" id="Products">
+      <div class="container">
+         <div class="text-center wow fadeInUp">
+            <div class="subhead">Explore New Style</div>
+            <h2 class="title-section">Our Collections</h2>
+            <div class="divider mx-auto"></div>
+         </div>
+
+         <div class="row">
+            <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
+               <div class="categories">
+                  <figure class="headimg">
+                     <img src="./images/SandalWood.png" alt="Leather purse">
+                  </figure>
+                  <h5>Summer Fruits</h5>
+                  <p>Aroma manis segar, yang akan membuatmu merasa segar sepanjang hari
+
+                     .</p>
+               </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
+               <div class="categories">
+                  <figure class="headimg">
+                     <img src="./images/SandalWood.png" alt="Leather belt">
+                  </figure>
+                  <h5>Thynia (Sandal Wood)</h5>
+                  <p> Aroma yang mewah dan manis dapat membuat pikiran rileks dan  tenang
+                  </p>
+
+               </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
+               <div class="categories">
+                  <figure class="headimg">
+                     <img src="./images/SandalWood.png" alt="Leather shoes">
+                  </figure>
+                  <h5>Lemon Grass</h5>
+                  <p>Aroma alami dan rempah yang menyegarkan dapat meredakan stress dan menenangkan pikiran.</p>
+               </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
+               <div class="categories">
+                  <figure class="headimg">
+                     <img src="./images/SandalWood.png" alt="Leather bags">
+                  </figure>
+                  <h5>Cherry Blosom</h5>
+                  <p>Aroma manis, feminim & menyegarkan.
+                  </p>
+               </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
+               <div class="categories">
+                  <figure class="headimg">
+                     <img src="./images/SandalWood.png" alt="Leather wallet">
+                  </figure>
+                  <h5>Black Coffe</h5>
+                  <p>Aroma kopi yang kuat membuat pikiran lebih bersemangat dan berenergi.</p>
+               </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
+               <div class="categories">
+                  <figure class="headimg">
+                     <img src="./images/SandalWood.png" alt="Leather gloves">
+                  </figure>
+                  <h5>Thyina Odoris</h5>
+                  <p> Aroma yang khas dan mewah dapat membuat pikiran enjoy dan  tenang.</p>
+               </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
+               <div class="categories">
+                  <figure class="headimg">
+                     <img src="./images/SandalWood.png" alt="Leather bagpacks">
+                  </figure>
+                  <h5>Rose Mine</h5>
+                  <p>Aroma bunga Rose yang sangat lembut & mewah.</p>
+               </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
+               <div class="categories">
+                  <figure class="headimg">
+                     <img src="./images/SandalWood.png" alt="Leather caps">
+                  </figure>
+                  <h5>Vanille Douce</h5>
+                  <p>Aroma yang lembut dan manis dapat membuat perasaan menjadi ceria dan nyaman.</p>
+               </div>
+            </div>
+            <div class="col-12">
+               <a href="./html/products.html" class="btn cat-btn mt-3">See More</a>
+            </div>
+         </div>
+
+      </div> <!-- .container -->
+   </div>
+   <!-- end products -->
+
+
+   <!-- About us  section -->
+   <div class="page-section" id="about">
+      <div class="container">
+         <div class="row align-items-center">
+            <div class="col-lg-6 py-3 wow fadeInUp">
+               <span class="subhead">About us</span>
+               <h2 class="title-section">Sandarma Official</h2>
+               <div class="divider"></div>
+
+               <p>menawarkan rangkaian produk premium, termasuk reed diffuser yang dirancang dengan estetika dan kemasan yang elegan. Setiap produk kami dibuat dengan perhatian khusus terhadap detail, menggunakan bahan-bahan berkualitas untuk memastikan aroma yang tidak hanya menyenangkan, tetapi juga tahan lama dan efektif menyebar ke seluruh ruangan.</p>
+               
+               <a href="./html/about.html" class="btn aboutusbtn mt-3">Read More</a>
+            </div>
+            <div class="col-lg-6 py-3 wow fadeInRight">
+               <figure class="about-img py-3 text-center">
+                  <img src="./images/Diffuser4.png" alt="">
+               </figure>
+            </div>
+         </div>
+      </div> <!-- .container -->
+   </div> <!-- .page-section -->
+   </div>
+   <!-- end About us  section -->
+
+   <!---offer-->
+   <div class="offer">
+      <div class="container">
+
+         <div class="row align-items-center">
+
+            <figure class="about-img col-lg-6 py-3 wow fadeInUp">
+               <img src="./images/Diffuser3.png" class="offer-img">
+            </figure>
+
+
+            <div  class="col-lg-6 py-3 wow fadeInRight">
+               <p class="offerp"> Exclusively Available on Sandarma Official </p>
+               <h1>Paket Lengkap Red Diffuser </h1>
+               <br>
+               <p class="offerp"> Pengharum ruangan yang cocok untuk menciptakan suasana yang nyaman di rumah anda, Pewangi ruangan efektif tanpa lilin atau listrik, cukup dengan manaruh Fiber Stick ke dalam botol, Fiber Stick memiliki saluran kecil sehingga memungkinkan oil aromatherapy menaiki stick untuk kemudian menyebarkan aroma pada ruangan.
+
+               </p>  
+
+               <a href="https://shopee.co.id/Gift-Box-Reed-Diffuser-Hampers-Kado-Pernikahan-Kado-Ulang-Tahun-Graduation-by-Sandarma.Official-i.1544359.21486348076?sp_atk=b8a13339-ecf2-4423-9183-5d46650f6a6f&xptdk=b8a13339-ecf2-4423-9183-5d46650f6a6f"><button class="btn">Buy Now &#8594;</button>
+               </a>
+            </div>
+         </div>
+      </div>
+   </div>
+
+
+   <div class="page-section" id="arrivals">
+      <div class="container">
+         <div class="text-center wow fadeInUp">
+            <div class="subhead">Find More Interesting Products</div>
+            <h2 class="title-section">Our New Arrivals</h2>
+            <div class="divider mx-auto"></div>
+         </div>
+
+         <div class="row mt-5">
+            <div class="col-lg-4 py-3 wow fadeInUp">
+               <div class="arrival-card">
+                  <div class="body">
+                     <figure class="arrival_picture">
+                        <img src="./images/Produk1.jpeg" alt="">
+                     </figure>
+                     <div class="bodycont">
+                        <h5 class="arrival-title"><a href="https://shopee.co.id/CHERRY-BLOSSOM-40ml-Reed-Diffuser-Pengharum-Ruangan-Aromaterapi-by-Sandarma.Official-i.1544359.20181551489?sp_atk=a9e6e403-55cc-4052-a7e6-2114900c3078">Cherry Blosom</a></h5>
+                        <div class="post-date">Price: <a href="https://shopee.co.id/CHERRY-BLOSSOM-40ml-Reed-Diffuser-Pengharum-Ruangan-Aromaterapi-by-Sandarma.Official-i.1544359.20181551489?sp_atk=a9e6e403-55cc-4052-a7e6-2114900c3078">Rp. 30.000</a></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-lg-4 py-3 wow fadeInUp">
+               <div class="arrival-card">
+                  <div class="body">
+                     <figure class="arrival_picture">
+                        <img src="./images/Produk2.jpeg" alt="">
+                     </figure>
+                     <div class="bodycont">
+                        <h5 class="arrival-title"><a href="https://shopee.co.id/LEMONGRASS-40ml-Reed-Diffuser-Pengharum-Ruangan-Aromaterapi-by-Sandarma.Official-i.1544359.18881571490?xptdk=b2a79c77-f372-48f9-99ac-d1c57f0808a6">Lemon Grass</a></h5>
+                        <div class="post-date">Price: <a href="https://shopee.co.id/LEMONGRASS-40ml-Reed-Diffuser-Pengharum-Ruangan-Aromaterapi-by-Sandarma.Official-i.1544359.18881571490?xptdk=b2a79c77-f372-48f9-99ac-d1c57f0808a6">Rp. 30.000</a></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-lg-4 py-3 wow fadeInUp">
+               <div class="arrival-card">
+                  <div class="body">
+                     <figure class="arrival_picture">
+                        <img src="./images/Produk3.jpeg" alt="">
+                     </figure>
+                     <div class="bodycont">
+                        <h5 class="arrival-title"><a href="https://shopee.co.id/BLACK-COFFEE-40ml-Reed-Diffuser-Pengharum-Ruangan-Aromaterapi-by-Sandarma.Official-i.1544359.18181208282?xptdk=499774f9-6679-45e0-bc49-b3b7172a06e6">Black Coffe</a></h5>
+                        <div class="post-date">Price: <a href="https://shopee.co.id/BLACK-COFFEE-40ml-Reed-Diffuser-Pengharum-Ruangan-Aromaterapi-by-Sandarma.Official-i.1544359.18181208282?xptdk=499774f9-6679-45e0-bc49-b3b7172a06e6">Rp. 30.000</a></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-12 mt-4 text-center wow fadeInUp">
+               <a href="./html/products.html" class="btn aboutusbtn">View More</a>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <div class="customer">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+               <div class="titlepage">
+                  <h2>Customer Reviews</h2>
+               </div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-md-12">
+               <div id="myCarousel" class="carousel slide customer_Carousel " data-ride="carousel">
+                  <ol class="carousel-indicators">
+                     <li data-target="#myCarousel" data-slide-to="0" class="active next-circle"></li>
+                     <li data-target="#myCarousel" data-slide-to="1" class="next-circle"></li>
+                     <li data-target="#myCarousel" data-slide-to="2" class="next-circle"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                     <div class="carousel-item active">
+                        <div class="container">
+                           <div class="carousel-caption ">
+                              <div class="row">
+                                 <div class="col-md-9 offset-md-3">
+                                    <div class="test_box">
+                                       <i><img class="customer-review-quote" src="./images/cos.png" alt="#" /></i>
+                                       <h4>Rusdiansyah Ramadhan</h4>
+                                       <p>Hi it's Rusdiansyah from Jakarta! I just received my new backpack purse and it is
+                                          exactly what I've been looking for!!!! I totally love it!!!! I just love your
+                                          stuff!!!!! Thanks so much and thanks to Sandarma Official.</p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                   
+                   
+                  </div>
+                  <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                     <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                     <span class="sr-only">Next</span>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- end customer -->
+
+   <!--  contact -->
+   <section class="contact" id="ContactUs">
+      <div class="container">
+         <div class="contact-details">
+            <div class="section-header contact-head  text-center">
+               <div class="text-center wow fadeInUp">
+                  <h2 class="title-section">Contact Us</h2>
+               </div>
+               <p>
+
+                  If you have any questions about our product, please feel free to contact us on any of the below given links or send us an email.
+               <br> We would be glad to resolve your issues. 
+            </p>
+                 
+               </p>
+            </div>
+            <!--/.section-header-->
+            <div class="contact-content">
+               <div class="row">
+                  <div class="col-sm-offset-1 col-sm-5">
+                     <div class="single-contact-box">
+                        <div class="contact-right">
+                           <div class="contact-adress">
+                              <div class="contact-office-address">
+                                 <h3>contact info</h3>
+                                 <p>
+                                    Paseban, Jakarta Pusat, Jakarta
+                                 </p>
+                                 <div class="contact-online-address">
+                                    <div class="single-online-address">
+                                       <i class="fa fa-phone"></i>
+                                       +62 87899608799
+                                    </div>
+                                    <!--/.single-online-address-->
+
+                                    <div class="single-online-address">
+                                       <i class="fa fa-envelope-o"></i>
+                                       <span>SandarmaOfficial@gmail.com</span>
+                                    </div>
+                                    <!--/.single-online-address-->
+                                 </div>
+                                 <!--/.contact-online-address-->
+                              </div>
+                              <!--/.contact-office-address-->
+                              <div class="contact-office-address">
+                                 <h3>Media Sosial</h3>
+                                 <div class="contact-icon">
+                                    <ul>
+                                       <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                       <!--/li-->
+                                       <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                       <!--/li-->
+                                       <li><a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+                                       <!--/li-->
+                                       <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                       <!--/li-->
+                                    </ul>
+                                    <!--/ul-->
+                                 </div>
+                                 <!--/.contact-icon-->
+                              </div>
+                              <!--/.contact-office-address-->
+
+                           </div>
+                           <!--/.contact-address-->
+                        </div>
+                        <!--/.contact-right-->
+                     </div>
+                     <!--/.single-contact-box-->
+                  </div>
+                  <!--/.col-->
+                  <div class="col-sm-5">
+                     <div class="single-contact-box">
+                        <div class="contact-form">
+                           <h3>Leave us a Message Here</h3>
+                           <form>
+                              <div class="row">
+                                 <div class="col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                       <input type="text" class="form-control" id="firstname" placeholder="First Name"
+                                          name="firstname">
+                                    </div>
+                                    <!--/.form-group-->
+                                 </div>
+                                 <!--/.col-->
+                                 <div class="col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                       <input type="text" class="form-control" id="lastname" placeholder="Last Name"
+                                          name="laststname">
+                                    </div>
+                                    <!--/.form-group-->
+                                 </div>
+                                 <!--/.col-->
+                              </div>
+                              <!--/.row-->
+                              <div class="row">
+                                 <div class="col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                       <input type="email" class="form-control" id="email" placeholder="Email"
+                                          name="email">
+                                    </div>
+                                    <!--/.form-group-->
+                                 </div>
+                                 <!--/.col-->
+                                 <div class="col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                       <input type="text" class="form-control" id="phone" placeholder="Phone"
+                                          name="phone">
+                                    </div>
+                                    <!--/.form-group-->
+                                 </div>
+                                 <!--/.col-->
+                              </div>
+                              <!--/.row-->
+                              <div class="row">
+                                 <div class="col-sm-12">
+                                    <div class="form-group">
+                                       <textarea class="form-control" rows="7" id="comment"
+                                          placeholder="Message"></textarea>
+                                    </div>
+                                    <!--/.form-group-->
+                                 </div>
+                                 <!--/.col-->
+                              </div>
+                              <!--/.row-->
+                              <div class="row">
+                                 <div class="col-sm-12">
+                                    <div class="single-contact-btn ">
+                                       <button class="SubmitBtn" type="button">Send Message</button>
+                                       <button   class="ResetBtn" type="reset">Reset</button>
+                                    </div>
+                                    <!--/.single-single-contact-btn-->
+                                 </div>
+                                 <!--/.col-->
+                              </div>
+                              <!--/.row-->
+                           </form>
+                           <!--/form-->
+                        </div>
+                        <!--/.contact-form-->
+                     </div>
+                     <!--/.single-contact-box-->
+                  </div>
+                  <!--/.col-->
+               </div>
+               <!--/.row-->
+            </div>
+            <!--/.contact-content-->
+         </div>
+         <!--/.contact-details-->
+      </div>
+      <!--/.container-->
+
+   </section>
+   <!--/.contact-->
+   <!-- end contact -->
+   <!--  footer -->
+   <footer>
+      <div class="footer">
+         <div class="container">
+            <div class="row">
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                  <a href="#top-of-page">
+                     <img class="logo1" src="./images/Logo1.png" alt="#" />
+                  </a>
+                  <ul class="social_icon">
+                     <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                     <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                     <li><a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+                     <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                  </ul>
+               </div>
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                  <h3>INFO</h3>
+                  <ul class="about_us">
+                     <li><a href="#">About Us</a></li>
+                     <li><a href="#">FAQs</a></li>
+                     <li><a href="#">Advertise</a></li>
+                     <li><a href="#">Terms and Conditions</a></li>
+                     <li><a href="PrivacyPolicy.html">Privacy Policy</a></li>
+                     <li><a href="#">Help & Support</a></li>
+                  </ul>
+               </div>
+
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                  <h3>Contact Us</h3>
+                  <ul class="conta">
+                     <li>
+                        <p>Paseban, Jakarta Pusat, Jakarta</p>
+                     </li>
+                     <li>+62 87899608799</li>
+                     <li>SandarmaOfficialgmail.com</li>
+
+                  </ul>
+               </div>
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                  <form class="bottom_form">
+                     <h3>Newsletter</h3>
+                     <input class="enter" placeholder="Enter your email" type="text" name="Enter your email">
+                     <button class="sub_btn">subscribe</button>
+                  </form>
+               </div>
+            </div>
+         </div>
+         <div class="copyright">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12">
+                     <p>Copyright © 2024 Sandarma Official, Inc. All rights reserved.</a></p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
+
+   <div class="toggle-theme-btn">
+      <i class="fa fa-sun-o"></i>
+      <i class="fa fa-moon-o"></i>
+   </div>
+   <!-- end footer -->
+   <!-- Javascript files-->
+   <script src="./js/jquery.min.js"></script>
+   <script src="./js/bootstrap.bundle.min.js"></script>
+   <!-- sidebar -->
+
+   <script src="./js/custom.js"></script>
+
+   <!-- reiquired js for the page  -->
+   <script src="./js/searchSuggestions.js"> </script>
+   <script src="./js/index.js"></script>
+   <script src="./js/carousal.js"></script>
+
+</body>
+
+</html>

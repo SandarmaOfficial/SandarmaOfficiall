@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandarma Official</title>
+    <link rel="icon" href="images/Logo1.png" type="image/gif" />
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #292e39;
+            background-image: url(../LeatherHoard-main/images/banner4.png);
+        }
+
+        header {
+            background-color: #292e39;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            color: #fff;
+            font-size: 36px;
+            margin: 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #1f1f1f;
+        }
+
+        nav a {
+            color: #fff;
+            padding: 15px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        .hero {
+            background: url('hero-image.jpg') no-repeat center center/cover;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 48px;
+            margin: 0;
+            animation: fadeInDown 1.5s ease;
+        }
+
+        .services {
+            padding: 50px 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .service-card {
+            background-color: #645f88;
+            border-radius: 8px;
+            box-shadow: 0 3px 12px rgba(95, 92, 120, 0.12);
+            width: 300px;
+            margin: 20px;
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+
+        .service-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .service-card img {
+            width: 200px;
+            height: 200px;
+            margin-left: 2.7rem;
+            margin-top: 2rem;
+            object-fit: cover;
+        }
+
+        .service-card h3 {
+            padding: 30px;
+            font-size: 24px;
+            color: #333;
+            margin: 0;
+        }
+
+        .service-card p {
+            padding: 0 20px 20px;
+            font-size: 16px;
+            color: #fff;
+        }
+
+        .service-card .btn {
+            display: block;
+            width: calc(100% - 40px);
+            margin: 20px auto;
+            padding: 10px;
+            background-color: #292e39;
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+
+        .service-card .btn:hover {
+            background-color: #1f1f1f;
+        }
+
+        footer {
+            background-color: #292e39;
+            padding: 20px;
+            text-align: center;
+            color: #fff;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Sandarma Official</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="./html/products.html">Products</a>
+        <a href="service.html">Service</a>
+        <a href="./index.html#ContactUs">Contact Us</a>
+    </nav>
+
+    <section class="hero">
+        <h2>Layanan Kami</h2>  
+    </section>
+
+    <section class="services">
+        <div class="service-card">
+            <img src="./images/SandalWood.png" alt="Custom Fragrance">
+            <h3>Kustom Wangi</h3>
+            <p>Kami menawarkan layanan pembuatan parfum kustom sesuai dengan selera Anda. Pilih bahan dan aroma yang Anda sukai!</p>
+            <a href="#" class="btn">Pelajari Lebih Lanjut</a>
+        </div>
+
+        <div class="service-card">
+            <img src="./images/Diffuser3.png" alt="Wholesale Services">
+            <h3>Layanan Grosir</h3>
+            <p>Dapatkan harga spesial untuk pembelian dalam jumlah besar. Kami siap melayani pesanan grosir dengan kualitas terbaik.</p>
+            <a href="#" class="btn">Pelajari Lebih Lanjut</a>
+        </div>
+
+        <div class="service-card">
+            <img src="./images/quality2.png" alt="Consulting Services">
+            <h3>Konsultasi Aroma</h3>
+            <p>Butuh bantuan memilih aroma yang tepat? Kami menawarkan layanan konsultasi untuk membantu Anda menemukan aroma terbaik.</p>
+            <a href="#" class="btn">Pelajari Lebih Lanjut</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Sandarma Official. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
